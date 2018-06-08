@@ -13,13 +13,10 @@ const codes = [
 
 function init() {
   
-  var index = 0;
-  
-  var body = document.querySelector('body');
-  
-  body.addEventListener('keydown', function onKeyDownHandler(e){
-    
-  function onKeyDownHandler(e) {
+  document.body.addEventListener ('keydown', function(e) {
+
+
+function onKeyDownHandler(e) {
   var key = e.key;
 
       // check if key is equal to current value of index in code array
@@ -42,6 +39,5 @@ function init() {
       index = 0;
     }
   });
-}
 }
 }
