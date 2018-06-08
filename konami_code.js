@@ -26,6 +26,7 @@ function init() {
   
   if(index === code.length){
     alert("Here's 30 Lives!");
+    index = 0;
     
   }
   
