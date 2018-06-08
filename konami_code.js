@@ -25,7 +25,7 @@ function init() {
   index;++
   
   if(index === codes.length){
-    alert("Here's 30 Lives")
+    alert("Here's 30 Lives!")
     
   }
   })
