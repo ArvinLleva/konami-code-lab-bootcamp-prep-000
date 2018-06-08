@@ -24,7 +24,10 @@ function init() {
   if(key === code[0])
   index;++
   
-  if(index === codes.length -)
+  if(index === codes.length){
+    alert("Here's 30 Lives")
+    
+  }
   })
   
 }
