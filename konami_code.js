@@ -12,25 +12,27 @@ const codes = [
 ];
 
 function init() {
-
-  let index = 0;
-
-  const body = document.querySelector('body');
-
-  body.addEventListener('keydown',
-    function onKeyDownHandler(e){
-      const key = e.key;
-
-      if(key === codes[index]){
-        index++;
-
-        if(index === codes.length){
-          alert("Hurray!");
-
-          index = 0;
-        }
-      } else {
-        index = 0;
-      }
-    } )
+  
+  var index = 0;
+  
+  var body = document.querySelector('body');
+  
+  body.addEventListener('keydown', function onKeyDownHandler(e){
+    
+  var key = e.key;
+  
+  if(key === code[index]){
+  index++;
+  
+  if(index === code.length){
+    alert("Here's 30 Lives!");
+    index = 0;
+    
+  }
+  
+  }else{
+    index = 0;
+  }
+  })
+  
 }
