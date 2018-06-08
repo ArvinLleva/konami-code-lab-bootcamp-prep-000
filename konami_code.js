@@ -18,12 +18,14 @@ function init() {
   var body = document.querySelector('body');
   
   body.addEventListener('keydown', function onKeyDownHandler(e){
-    
-  //this checks if the   
+  
   var key = e.key;
   
+  //this checks if the key that is pressed is equal to the current key value of the index
+  //this iterates though the array if the conditions match
+  
   if(key === codes[index]){
-  index++;
+  index++; // this increases by one, or goes to the next index if they match
   
   if(index === codes.length){
     alert("Here's 30 Lives!");
