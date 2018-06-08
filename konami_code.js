@@ -17,6 +17,7 @@ function init() {
   
   var body = document.querySelector('body');
   
+  // name of the event, and a function to handle the event
   body.addEventListener('keydown', function onKeyDownHandler(e){
   
   var key = e.key;
