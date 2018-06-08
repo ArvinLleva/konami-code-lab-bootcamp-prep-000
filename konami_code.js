@@ -21,7 +21,7 @@ function init() {
     
   var key = e.key;
   
-  if(key === code[0]){
+  if(key === code[index]){
   index++;
   
   if(index === code.length){
