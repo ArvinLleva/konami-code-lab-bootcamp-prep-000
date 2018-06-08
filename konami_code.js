@@ -12,7 +12,10 @@ const codes = [
 ];
 
 function init() {
+  
   var index = 0;
+  
+  
   
   document.bo
   var key = e.key
