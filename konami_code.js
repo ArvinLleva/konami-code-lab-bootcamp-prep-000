@@ -15,8 +15,16 @@ function init() {
   
   var index = 0;
   
+  var body = document.querySelector('body');
   
+  body.addEventListener('keydown', function onKeyDownHandler(e){
+    
+  var key = e.key;
   
-  document.bo
-  var key = e.key
+  if(key === code[0])
+  index;++
+  
+  if(index === codes.length -)
+  })
+  
 }
