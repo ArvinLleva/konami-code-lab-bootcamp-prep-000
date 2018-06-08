@@ -21,10 +21,10 @@ function init() {
     
   var key = e.key;
   
-  if(key === code[index]){
+  if(key === codes[index]){
   index++;
   
-  if(index === code.length){
+  if(index === codes.length){
     alert("Here's 30 Lives!");
     index = 0;
     
