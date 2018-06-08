@@ -28,6 +28,10 @@ function init() {
     alert("Here's 30 Lives!");
     
   }
-  })
   
+  }else{
+    index = 0;
+  }
+  });
+  }
 }
