@@ -19,6 +19,7 @@ function init() {
   
   body.addEventListener('keydown', function onKeyDownHandler(e){
     
+  //this checks if the   
   var key = e.key;
   
   if(key === codes[index]){
