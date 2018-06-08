@@ -22,10 +22,10 @@ function init() {
   var key = e.key;
   
   if(key === code[0])
-  index;++
+  index++;
   
-  if(index === codes.length){
-    alert("Here's 30 Lives!")
+  if(index === code.length){
+    alert("Here's 30 Lives!");
     
   }
   })
